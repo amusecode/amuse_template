@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my-amuse-project"
+version = "2024.8.0"  # year.month.release is a good option, otherwise you can use semantic versioning (major.minor.patch)
+dependencies = [
+  "amuse-framework>2024.0.0",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Am Use", email = "info@amusecode.org"},
+]
+maintainers = [
+  {name = "Am User", email = "user@amusecode.org"}
+]
+description = "My Example AMUSE project"
+readme = "README.rst"
+license = {file = "LICENSE.txt"}
+keywords = ["astronomy", "amuse"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+gui = []
+cli = []
+
+[project.urls]
+Homepage = "https://amusecode.org"
+Documentation = "https://amuse.readthedocs.io"
+Repository = "https://github.com/amusecode/amuse_template.git"
+"Bug Tracker" = "https://github.com/amusecode/amuse_template/issues"
+Changelog = "https://github.com/amusecode/amuse_template/main/CHANGELOG.md"
+
+[project.scripts]
+amuse_template = "amuse_template:main"
