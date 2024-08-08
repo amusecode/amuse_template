@@ -16,8 +16,8 @@ maintainers = [
   {name = "Am User", email = "user@amusecode.org"}
 ]
 description = "My Example AMUSE project"
-readme = "README.rst"
-license = {file = "LICENSE.txt"}
+readme = "README.md"
+license = {file = "LICENSE"}
 keywords = ["astronomy", "amuse"]
 classifiers = [
   "Development Status :: 4 - Beta",
