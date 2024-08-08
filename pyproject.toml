@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "my-amuse-project"
+name = "amuse-template"
 version = "2024.8.0"  # year.month.release is a good option, otherwise you can use semantic versioning (major.minor.patch)
 dependencies = [
   "amuse-framework>2024.0.0",
